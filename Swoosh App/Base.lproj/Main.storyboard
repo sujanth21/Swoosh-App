@@ -66,6 +66,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="bgImage" destination="xZ0-tG-861" id="KQf-9a-K7A"/>
+                        <outlet property="swoosh" destination="3Ai-T4-OyF" id="GuF-QL-Um7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
