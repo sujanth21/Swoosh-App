@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swoosh_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="Swoosh_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="57H-gH-HnN">
             <objects>
-                <viewController id="Hit-9U-uPQ" sceneMemberID="viewController">
+                <viewController id="Hit-9U-uPQ" customClass="LeagueVC" customModule="Swoosh_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qQn-xQ-cly"/>
                         <viewControllerLayoutGuide type="bottom" id="J0n-XD-mWX"/>
@@ -219,10 +219,10 @@
             </objects>
             <point key="canvasLocation" x="1055" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="NES-gB-Pzv">
             <objects>
-                <viewController id="9jv-XL-FfG" sceneMemberID="viewController">
+                <viewController id="9jv-XL-FfG" customClass="SkillVC" customModule="Swoosh_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oJb-0S-czb"/>
                         <viewControllerLayoutGuide type="bottom" id="HLP-BK-H6v"/>
