@@ -16,8 +16,6 @@ class LeagueVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
         player = Player()
     }
@@ -41,6 +39,12 @@ class LeagueVC: UIViewController {
     func selectedLeague(leagueType: String) {
         player.desiredLeague = leagueType
         nextBtn.isEnabled = true
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let skillVC = segue.destination as? SkillVC {
+            skillVC.player = player
+        }
     }
     
 }
